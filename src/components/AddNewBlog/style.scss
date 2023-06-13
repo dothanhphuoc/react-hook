@@ -1,0 +1,43 @@
+.add-new-container {
+
+    border: 1px solid #757575;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .form {
+
+        width: 400px;
+        .input-data {
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: left;
+            margin-bottom: 10px;
+
+            label {
+                font-size: 16px;
+                font-weight: 600px;
+                margin: 0 0 5px 3px;
+            }
+
+            input {
+                padding: 10px;
+                border-radius: 5px;
+            }
+
+        }
+
+        .btn-add-new {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
